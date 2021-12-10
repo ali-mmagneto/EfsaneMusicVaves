@@ -17,7 +17,7 @@ Sesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi v
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Grubunuza Ekle ➕", url="https://t.me/Efsanestar_bot?startgroup=true"
+                        "➕ Grubunuza Ekle ➕", url="https://t.me/alimuzikbot?startgroup=true"
                     )
                 ],
                 [
