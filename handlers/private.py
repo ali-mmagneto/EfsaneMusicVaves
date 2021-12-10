@@ -9,8 +9,8 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
     await message.reply_photo("https://i.ibb.co/khRz42f/Turkish-Voice.jpg")
     await message.reply_text(
-        f"""**Merhaba, {message.from_user.mention} 🎵
-Sesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [Talia Müzik 🎙️](https://t.me/Sohbetdestek).
+        f"""**Merhaba ben botum, {message.from_user.mention} 🎵
+Sesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım by @mmagneto [Kişisel Blogu 🎙️](https://t.me/mmagneto3).
  **""",
 
         reply_markup=InlineKeyboardMarkup(
@@ -22,17 +22,17 @@ Sesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi v
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/Efsanestar_bot" 
+                        "🔊 Asistan", url="https://t.me/alimuzikasistant" 
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/Sohbetskyfall"
+                        "💬 Kişisel Blog", url="https://t.me/mmagneto3"
                     ),
                     InlineKeyboardButton(
-                        "🙎‍♂️ Geliştirici", url="https://t.me/Mahoaga") 
+                        "🙎‍♂️ Geliştirici", url="https://t.me/mmagneto") 
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧩 Kaynak Kodu", url="https://github.com/Mehmetbaba55"
+                        "komik bir vidyo", url="https://t.me/mmagneto3/31"
                     )
                 ]
             ]
@@ -47,7 +47,7 @@ async def bilgi(_, message: Message):
              [
                  [
                      InlineKeyboardButton(
-                         "👨‍🔧 Geliştirici", url="https://t.me/Sohbetdestek")
+                         "👨‍🔧 Geliştirici", url="https://t.me/mmagneto")
                  ]
              ]
          )
